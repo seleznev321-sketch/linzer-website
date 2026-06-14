@@ -3,10 +3,442 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Линзер — остекление и фасады</title>
+  <title>ЛИНЗЕР — проектирование и монтаж фасадов и остекления зданий | Владивосток</title>
+  <meta name="description" content="ЛИНЗЕР — навесные вентилируемые фасады, светопрозрачные конструкции и витражи для высотного строительства. С 2008 года, более 70 объектов на Дальнем Востоке. Собственное производство и монтаж.">
+  <meta name="theme-color" content="#0E1A24">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="ЛИНЗЕР — фасады и остекление зданий">
+  <meta property="og:description" content="Навесные вентилируемые фасады, светопрозрачные конструкции, витражи. С 2008 года, более 70 объектов. Владивосток — Хабаровск — Находка.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <h1>Линзер</h1>
-  <p>Сайт в разработке</p>
+
+<!-- ░░░░░░░░░░ ШАПКА ░░░░░░░░░░ -->
+<header class="site-header" id="top">
+  <div class="container header__inner">
+    <a href="#top" class="logo">ЛИНЗЕР<span>®</span></a>
+
+    <nav class="nav" id="nav">
+      <a href="#services">Услуги</a>
+      <a href="#portfolio">Объекты</a>
+      <a href="#production">Производство</a>
+      <a href="#why">Почему мы</a>
+      <a href="#suppliers">Поставщикам</a>
+      <a href="#careers">Вакансии</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+
+    <a href="tel:+79141802211" class="header__phone">8 914 180-22-11</a>
+    <button class="burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- ░░░░░░░░░░ ГЕРОЙ ░░░░░░░░░░ -->
+<section class="hero">
+  <div class="hero__bg" style="background-image:url('assets/img/img_12.jpg')"></div>
+  <div class="hero__overlay"></div>
+  <div class="container hero__content">
+    <p class="hero__eyebrow">Проектирование и монтаж оболочек зданий · с 2008 года</p>
+    <h1 class="hero__title">Фасады и остекление<br>высотных зданий<br><span>на Дальнем Востоке</span></h1>
+    <p class="hero__lead">Навесные вентилируемые фасады, светопрозрачные конструкции и витражи —
+    от расчёта до сдачи объекта. Собственное производство и монтаж.</p>
+
+    <div class="hero__stats">
+      <div class="stat"><span class="stat__num">17</span><span class="stat__lbl">лет на рынке</span></div>
+      <div class="stat"><span class="stat__num">70+</span><span class="stat__lbl">сданных объектов</span></div>
+      <div class="stat"><span class="stat__num">4</span><span class="stat__lbl">цеха собственного<br>производства</span></div>
+    </div>
+
+    <div class="hero__cta">
+      <a href="#lead-form" class="btn btn--accent">Рассчитать стоимость работ</a>
+      <a href="#callback" class="btn btn--ghost">Заказать звонок</a>
+    </div>
+    <p class="hero__geo">Владивосток · Хабаровск · Находка</p>
+  </div>
+</section>
+
+<!-- ░░░░░░░░░░ ТРИ ВХОДА ░░░░░░░░░░ -->
+<section class="gates">
+  <div class="container gates__grid">
+    <a href="#lead-form" class="gate">
+      <span class="gate__tag">Заказчикам</span>
+      <h3>Застройщикам<br>и генподрядчикам</h3>
+      <p>Рассчитаем фасад под ваш объект, покажем сроки и возьмём ответственность за результат.</p>
+      <span class="gate__action">Оставить заявку на расчёт →</span>
+    </a>
+    <a href="#suppliers" class="gate">
+      <span class="gate__tag">Поставщикам</span>
+      <h3>Поставщикам<br>материалов</h3>
+      <p>Работаем с надёжными поставщиками профиля, стекла и комплектующих. Пришлите КП через одно окно.</p>
+      <span class="gate__action">Отправить КП →</span>
+    </a>
+    <a href="#careers" class="gate">
+      <span class="gate__tag">Работа</span>
+      <h3>Команде<br>и соискателям</h3>
+      <p>Растущее производство и крупные объекты. Ищем монтажников, ИТР и специалистов.</p>
+      <span class="gate__action">Отправить резюме →</span>
+    </a>
+  </div>
+</section>
+
+<!-- ░░░░░░░░░░ УСЛУГИ ░░░░░░░░░░ -->
+<section class="section" id="services">
+  <div class="container">
+    <p class="section__eyebrow">Что мы делаем</p>
+    <h2 class="section__title">Три направления — полный цикл по каждому</h2>
+    <p class="section__sub">От проектирования и расчётов до изготовления на собственном производстве и монтажа на высоте.</p>
+
+    <div class="services">
+      <article class="service">
+        <div class="service__num">01</div>
+        <h3>Навесные вентилируемые фасады (НВФ)</h3>
+        <p>Подсистема, утепление, облицовка керамогранитом, металлокассетами, фиброцементом.
+        Расчёт по ветровым нагрузкам и теплотехнике под климат региона.</p>
+        <ul>
+          <li>Расчёт подконструкции по ГОСТ</li>
+          <li>Керамогранит, кассеты, HPL</li>
+          <li>Монтаж на высотных объектах</li>
+        </ul>
+      </article>
+      <article class="service">
+        <div class="service__num">02</div>
+        <h3>Светопрозрачные конструкции (СПК)</h3>
+        <p>Стоечно-ригельные, структурные и полуструктурные системы остекления фасадов.
+        Алюминиевый профиль ведущих систем, стеклопакеты под требования проекта.</p>
+        <ul>
+          <li>Стоечно-ригельные и структурные фасады</li>
+          <li>Системы Schüco, СИАЛ, Alutech</li>
+          <li>Энергоэффективные стеклопакеты</li>
+        </ul>
+      </article>
+      <article class="service">
+        <div class="service__num">03</div>
+        <h3>Витражи и входные группы</h3>
+        <p>Панорамное остекление, витражи входных групп, зенитные фонари и купола.
+        Сложная геометрия и нестандартные узлы — наш профиль.</p>
+        <ul>
+          <li>Панорамные витражи</li>
+          <li>Купольное и зенитное остекление</li>
+          <li>Нестандартная геометрия</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ░░░░░░░░░░ ПОРТФОЛИО ░░░░░░░░░░ -->
+<section class="section section--dark" id="portfolio">
+  <div class="container">
+    <p class="section__eyebrow">Реализованные объекты</p>
+    <h2 class="section__title">Более 70 объектов с 2008 года</h2>
+    <p class="section__sub">Жилые комплексы, торговые центры, гостиницы и промышленные здания
+    во Владивостоке, Хабаровске и Находке.</p>
+
+    <div class="portfolio">
+      <article class="proj proj--wide">
+        <img src="assets/img/img_02.png" alt="ЖК Аквамарин, Владивосток" loading="lazy">
+        <div class="proj__info">
+          <h3>ЖК «Аквамарин»</h3>
+          <p>Владивосток, ул. Арсеньева, 2 · 2021</p>
+        </div>
+      </article>
+      <article class="proj">
+        <img src="assets/img/img_11.png" alt="ЖК Золотой Рог, Владивосток" loading="lazy">
+        <div class="proj__info">
+          <h3>ЖК «Золотой Рог»</h3>
+          <p>Владивосток, ул. Калинина, 13 · 3 дома</p>
+        </div>
+      </article>
+      <article class="proj">
+        <img src="assets/img/img_22.png" alt="ТРЦ Калина-Молл, купольное остекление" loading="lazy">
+        <div class="proj__info">
+          <h3>ТРЦ «Калина-Молл»</h3>
+          <p>Владивосток · купольное остекление</p>
+        </div>
+      </article>
+      <article class="proj">
+        <img src="assets/img/img_06.png" alt="Высотный жилой комплекс" loading="lazy">
+        <div class="proj__info">
+          <h3>ЖК «Театральный»</h3>
+          <p>Владивосток, ул. Фастовская, 29 · 2019</p>
+        </div>
+      </article>
+      <article class="proj">
+        <img src="assets/img/img_18.png" alt="Прибрежный жилой комплекс" loading="lazy">
+        <div class="proj__info">
+          <h3>ЖК «Седанка Хилл»</h3>
+          <p>Владивосток, ул. Маковского, 128 · 2023</p>
+        </div>
+      </article>
+      <article class="proj">
+        <img src="assets/img/img_15.png" alt="Жилой дом, остекление фасада" loading="lazy">
+        <div class="proj__info">
+          <h3>ЖК «Зелёный бульвар»</h3>
+          <p>Владивосток, ул. Нейбута · 5 домов</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="portfolio__more">
+      <span>Аквамарин · Hyatt · Золотой Рог · Алые паруса · Море · Южный · Чайка · Графит (Хабаровск) и ещё 50+ объектов</span>
+      <a href="#lead-form" class="btn btn--accent">Обсудить ваш объект</a>
+    </div>
+  </div>
+</section>
+
+<!-- ░░░░░░░░░░ ПРОИЗВОДСТВО ░░░░░░░░░░ -->
+<section class="section" id="production">
+  <div class="container">
+    <p class="section__eyebrow">Собственное производство</p>
+    <h2 class="section__title">Делаем сами — от заготовки до монтажа</h2>
+    <p class="section__sub">Не посредники. Комплекс из четырёх цехов и собственная монтажная техника —
+    это контроль качества и сроков на каждом этапе.</p>
+
+    <div class="prod">
+      <div class="prod__card">
+        <h3>Главный цех СПК / НВФ</h3>
+        <p>Пилы, фрезеры, штамповочные станки, спаечный участок, обрабатывающий центр COMMARO.</p>
+      </div>
+      <div class="prod__card">
+        <h3>Лазерный цех</h3>
+        <p>Лазер MUFXIA 4020A, фрезеры, листогиб, строгальный станок — раскрой и металлообработка.</p>
+      </div>
+      <div class="prod__card">
+        <h3>Сварочный цех</h3>
+        <p>Плазморезы SWAROG с ЧПУ, сварочные посты, пескоструйная обработка.</p>
+      </div>
+      <div class="prod__card">
+        <h3>Собственный монтаж</h3>
+        <p>Подъёмники ZLP630, компрессоры, генераторы, автопарк HINO. Не арендуем технику под объект.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ░░░░░░░░░░ ПОЧЕМУ МЫ ░░░░░░░░░░ -->
+<section class="section section--dark" id="why">
+  <div class="container">
+    <p class="section__eyebrow">Почему застройщики выбирают ЛИНЗЕР</p>
+    <h2 class="section__title">Закрываем главные риски фасадного подряда</h2>
+
+    <div class="why">
+      <div class="why__item">
+        <h3>Не сорвём сроки</h3>
+        <p>Собственное производство и монтажные бригады — не зависим от сторонних подрядчиков и аренды техники.</p>
+      </div>
+      <div class="why__item">
+        <h3>Допуски и СРО</h3>
+        <p>Лицензии и допуски на работы. Оформляем всю исполнительную документацию, актируем скрытые работы.</p>
+      </div>
+      <div class="why__item">
+        <h3>Отвечаем за качество</h3>
+        <p>Входной контроль материалов, документирование узлов, сдача с гарантией. Без протечек, продувов и деформаций.</p>
+      </div>
+      <div class="why__item">
+        <h3>17 лет и 70+ объектов</h3>
+        <p>Высотное жильё, ТРЦ, гостиницы и промышленные здания. Опыт сложных фасадов и нестандартной геометрии.</p>
+      </div>
+      <div class="why__item">
+        <h3>Полный цикл</h3>
+        <p>Проектирование, расчёты, изготовление и монтаж — одна зона ответственности, один договор.</p>
+      </div>
+      <div class="why__item">
+        <h3>Работаем по проекту</h3>
+        <p>Считаем фасад под ваши чертежи и нормы региона: ветровые нагрузки, теплотехника, пожарная безопасность.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ░░░░░░░░░░ ЗАЯВКА НА РАСЧЁТ ░░░░░░░░░░ -->
+<section class="section section--form" id="lead-form">
+  <div class="container form-block">
+    <div class="form-block__text">
+      <p class="section__eyebrow">Заказчикам</p>
+      <h2 class="section__title">Заявка на расчёт стоимости работ</h2>
+      <p class="section__sub">Пришлите параметры объекта — подготовим предварительный расчёт и предложение.
+      Если есть проект (АР, чертежи) — приложите, расчёт будет точнее.</p>
+      <ul class="form-block__list">
+        <li>Ответ в течение рабочего дня</li>
+        <li>Предварительная оценка — бесплатно</li>
+        <li>Конфиденциальность данных по объекту</li>
+      </ul>
+    </div>
+
+    <form class="form" name="lead" data-form="Заявка на расчёт">
+      <div class="form__row">
+        <input type="text" name="name" placeholder="Ваше имя" required>
+        <input type="tel" name="phone" placeholder="Телефон" required>
+      </div>
+      <input type="text" name="company" placeholder="Компания (застройщик / генподрядчик)">
+      <input type="text" name="object" placeholder="Объект и адрес">
+      <div class="form__row">
+        <select name="worktype">
+          <option value="">Тип работ</option>
+          <option>Навесной вентфасад (НВФ)</option>
+          <option>Светопрозрачные конструкции (СПК)</option>
+          <option>Витражи / входные группы</option>
+          <option>Комплекс работ</option>
+        </select>
+        <input type="text" name="area" placeholder="Площадь, м² (примерно)">
+      </div>
+      <textarea name="message" rows="3" placeholder="Комментарий, сроки, ссылка на проект"></textarea>
+      <button type="submit" class="btn btn--accent btn--full">Отправить заявку</button>
+      <p class="form__note">Нажимая кнопку, вы соглашаетесь на обработку персональных данных.</p>
+    </form>
+  </div>
+</section>
+
+<!-- ░░░░░░░░░░ ПОСТАВЩИКАМ ░░░░░░░░░░ -->
+<section class="section" id="suppliers">
+  <div class="container form-block">
+    <div class="form-block__text">
+      <p class="section__eyebrow">Поставщикам</p>
+      <h2 class="section__title">Сотрудничество и закупки</h2>
+      <p class="section__sub">Постоянно закупаем материалы для производства и монтажа. Если вы поставщик —
+      пришлите коммерческое предложение через одно окно, мы рассмотрим и ответим.</p>
+      <div class="supply-tags">
+        <span>Алюминиевый профиль</span>
+        <span>Стеклопакеты и стекло</span>
+        <span>Подсистемы НВФ</span>
+        <span>Утеплитель</span>
+        <span>Крепёж и комплектующие</span>
+        <span>Облицовка (керамогранит, кассеты)</span>
+        <span>Фурнитура</span>
+        <span>Герметики и уплотнители</span>
+      </div>
+    </div>
+
+    <form class="form" name="supplier" data-form="КП от поставщика">
+      <div class="form__row">
+        <input type="text" name="company" placeholder="Компания" required>
+        <input type="text" name="contact" placeholder="Контактное лицо">
+      </div>
+      <div class="form__row">
+        <input type="tel" name="phone" placeholder="Телефон" required>
+        <input type="email" name="email" placeholder="E-mail">
+      </div>
+      <input type="text" name="nomenclature" placeholder="Что предлагаете (номенклатура)">
+      <textarea name="message" rows="3" placeholder="Кратко об условиях, ссылка на прайс / КП"></textarea>
+      <button type="submit" class="btn btn--accent btn--full">Отправить КП</button>
+      <p class="form__note">Файлы прайса/КП пришлём запросом на почту после первичной заявки.</p>
+    </form>
+  </div>
+</section>
+
+<!-- ░░░░░░░░░░ ВАКАНСИИ ░░░░░░░░░░ -->
+<section class="section section--dark" id="careers">
+  <div class="container form-block">
+    <div class="form-block__text">
+      <p class="section__eyebrow">Работа в ЛИНЗЕР</p>
+      <h2 class="section__title">Присоединяйтесь к команде</h2>
+      <p class="section__sub">Растущее производство и крупные объекты на Дальнем Востоке.
+      Открытые направления:</p>
+      <ul class="vacancy-list">
+        <li><strong>Монтажники фасадов / СПК</strong><span>работа на высотных объектах</span></li>
+        <li><strong>ИТР, прорабы</strong><span>организация работ на объекте</span></li>
+        <li><strong>Конструкторы / проектировщики</strong><span>фасадные системы, СПК</span></li>
+        <li><strong>Специалисты производства</strong><span>цеха СПК, лазерный, сварочный</span></li>
+      </ul>
+      <p class="section__sub section__sub--small">Не нашли свою позицию? Присылайте резюме — рассмотрим.</p>
+    </div>
+
+    <form class="form" name="resume" data-form="Резюме">
+      <div class="form__row">
+        <input type="text" name="name" placeholder="ФИО" required>
+        <input type="tel" name="phone" placeholder="Телефон" required>
+      </div>
+      <input type="text" name="position" placeholder="Желаемая должность" required>
+      <input type="text" name="experience" placeholder="Опыт / ключевые навыки">
+      <textarea name="message" rows="3" placeholder="О себе, ссылка на резюме (hh, диск)"></textarea>
+      <button type="submit" class="btn btn--accent btn--full">Отправить резюме</button>
+      <p class="form__note">Резюме файлом пришлём запросом на почту после первичной заявки.</p>
+    </form>
+  </div>
+</section>
+
+<!-- ░░░░░░░░░░ КОНТАКТЫ ░░░░░░░░░░ -->
+<section class="section section--contacts" id="contacts">
+  <div class="container">
+    <p class="section__eyebrow">Контакты</p>
+    <h2 class="section__title">Связаться с нами</h2>
+
+    <div class="contacts">
+      <div class="contacts__col">
+        <div class="contact-item">
+          <span class="contact-item__lbl">Телефон</span>
+          <a href="tel:+79141802211" class="contact-item__val">8 914 180-22-11</a>
+        </div>
+        <div class="contact-item">
+          <span class="contact-item__lbl">E-mail</span>
+          <a href="mailto:development@mylinzer.ru" class="contact-item__val">development@mylinzer.ru</a>
+        </div>
+        <div class="contact-item">
+          <span class="contact-item__lbl">Офис</span>
+          <span class="contact-item__val">г. Владивосток, ул. Бородинская, 46/50,<br>ТЦ «Континент», 1 этаж, павильон 9 LINZER</span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-item__lbl">География работ</span>
+          <span class="contact-item__val">Владивосток · Хабаровск · Находка</span>
+        </div>
+      </div>
+
+      <form class="form contacts__form" id="callback" name="callback" data-form="Обратный звонок">
+        <h3>Заказать обратный звонок</h3>
+        <input type="text" name="name" placeholder="Ваше имя" required>
+        <input type="tel" name="phone" placeholder="Телефон" required>
+        <button type="submit" class="btn btn--accent btn--full">Перезвоните мне</button>
+        <p class="form__note">Перезвоним в рабочее время.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ░░░░░░░░░░ ПОДВАЛ ░░░░░░░░░░ -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <span class="logo logo--footer">ЛИНЗЕР<span>®</span></span>
+      <p>Проектирование и монтаж фасадов и остекления зданий. С 2008 года.</p>
+    </div>
+    <nav class="footer__nav">
+      <a href="#services">Услуги</a>
+      <a href="#portfolio">Объекты</a>
+      <a href="#production">Производство</a>
+      <a href="#suppliers">Поставщикам</a>
+      <a href="#careers">Вакансии</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <div class="footer__contacts">
+      <a href="tel:+79141802211">8 914 180-22-11</a>
+      <a href="mailto:development@mylinzer.ru">development@mylinzer.ru</a>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <div class="container">
+      <span>© 2008–2026 ЛИНЗЕР. Все права защищены.</span>
+      <a href="#top">Наверх ↑</a>
+    </div>
+  </div>
+</footer>
+
+<!-- модалка успеха -->
+<div class="modal" id="modal">
+  <div class="modal__box">
+    <div class="modal__icon">✓</div>
+    <h3>Заявка отправлена</h3>
+    <p>Спасибо! Мы свяжемся с вами в ближайшее рабочее время.</p>
+    <button class="btn btn--accent" id="modalClose">Хорошо</button>
+  </div>
+</div>
+
+<script src="assets/js/main.js"></script>
 </body>
 </html>
